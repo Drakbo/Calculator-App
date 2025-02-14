@@ -12,7 +12,6 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 });
 
 document.getElementById('exitBtn').addEventListener('click', function() {
-    // Note: window.close() typically only works for windows opened by scripts
     try {
         window.close();
     } catch (e) {
